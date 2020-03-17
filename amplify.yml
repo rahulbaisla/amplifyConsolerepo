@@ -4,6 +4,8 @@ env:
     key: value
 backend:
   phases:
+    preBuild:
+      commands: ["amplify --version"]
     build:
       commands: ["amplifyPush --simple"]
 frontend:
