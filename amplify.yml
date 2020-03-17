@@ -1,4 +1,7 @@
-version: 0.1
+version: 1.0
+env:
+  variables:
+    key: value
 backend:
   phases:
     build:
