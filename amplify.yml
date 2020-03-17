@@ -9,7 +9,7 @@ backend:
 frontend:
   phases:
     preBuild:
-      commands: ["npm install"]
+      commands: ["npm install aws-amplify aws-amplify-react"]
     build:
       commands: ["npm run build"]
   artifacts:
